@@ -100,6 +100,7 @@ def draw_topology(topology_dict, output_filename='img/topology'):
     filename = g1.render(filename=output_filename)
     print("Graph saved in", filename)
 
+
 diag5 = {('sss-core-digi', 'D2'): ('sss-hse-powell-1', 'A1'),
          ('sss-hse-powell-1', '41'): ('sss-hse-powell-2', '50'),
          ('sss-core-main', 'B22'): ('sss-hse-powell-3', '52'),
